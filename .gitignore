@@ -1,0 +1,66 @@
+.DS_Store
+*.class
+*.log
+build.sbt_back
+spark-warehouse
+.sbt
+.bash_history
+.hivehistory
+.viminfo
+.scala_history
+metastore_db
+
+# sbt specific
+dist/*
+target/
+lib_managed/
+src_managed/
+project/boot/
+project/target
+project/project
+project/plugins/project/
+sbt/*.jar
+mini-complete-example/sbt/*.jar
+
+# Scala-IDE specific
+.scala_dependencies
+
+#ignore the metastore
+metastore_db/*
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.env
+.Python
+env/
+bin/
+build/
+develop-eggs/
+dist/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
